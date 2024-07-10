@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0; 
     padding: 0;
@@ -33,4 +37,18 @@ nav li{
     padding: 0;
     padding-left: 25px;
     display: inline;  
-  }
+}
+
+
+p, h1{
+    color: white
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+body{
+    overflow-y: scroll;
+}
