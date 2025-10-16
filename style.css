@@ -3,6 +3,11 @@ html {
   scroll-padding-top: 10%;
 }
 
+.fullscreen {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
 p {
   text-align: left;
 }
@@ -17,7 +22,7 @@ p {
 }
 
 .textBubble {
-  background-color: #3CB371;
+  background-color: #005451;
   border-radius: 20px;
   padding: 1%;
   margin-top: 1%;
@@ -26,7 +31,7 @@ p {
 
 .rotatingImage {
   width: 100%;
-  height: 100%;
+  height: 95%;
   object-fit: cover;
   background-color: #000;
 }
@@ -46,6 +51,7 @@ iframe {
 }
 
 .container {
+  padding-top: 1%;
   width: 75%
 }
 
