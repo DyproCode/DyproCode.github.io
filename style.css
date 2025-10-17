@@ -46,13 +46,17 @@ h1 {
   font-size: 4rem;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 iframe {
   border-radius: 20px
 }
 
-.container {
+.wrapper {
   padding-top: 1%;
-  width: 75%
+  width: 80%
 }
 
 .icon {
@@ -61,4 +65,13 @@ iframe {
 
 #iconList {
   margin-left: 5%
+}
+
+#footer {
+  background-color: #222222;
+  padding: 0.5%
+}
+
+.sectionHeader {
+  margin-bottom: 2%
 }
